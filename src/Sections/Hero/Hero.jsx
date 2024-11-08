@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './HeroStyles.module.css'
-import heroImg from '../../assets/profile-photo-2.png'
+import heroImg from '../../assets/Jayasheela-maam-image.jpg'
 import sun from '../../assets/sun.svg'
 import moon from '../../assets/moon.svg'
 import twitterLight from '../../assets/twitter-light.svg'
@@ -9,7 +9,7 @@ import linkedInLight from '../../assets/linkedin-light.svg'
 import twitterDark from '../../assets/twitter-dark.svg'
 import githubDark from '../../assets/github-dark.svg'
 import linkedInDark from '../../assets/linkedin-dark.svg'
-import Resume from '../../assets/pruthwik_gowda (5).pdf'
+//import Resume from '../../assets/pruthwik_gowda (5).pdf'
 import { useTheme } from '../../Common/ThemeContext'
 
 const Hero = () => {
@@ -38,12 +38,13 @@ const Hero = () => {
             </div>
             <div className={styles.info}>
                 <h1>
-                    Pruthwik
-                    <br></br>
-                    Gowda
+                    Dr. C S Jayasheela
+                    
                 </h1>
                 <h2>
-                    Engineering Student
+                    Assistent Professor, Dept. of ISE
+                    <br></br>
+                    BIT
                 </h2>
                 <span>
                     <a href="https://github.com/pruthwik-gowda" target="_blank">
@@ -56,14 +57,14 @@ const Hero = () => {
                         <img src={linkedInIcon} alt="twitter logo" />
                     </a>
                 </span>
-                <p className={styles.description}>
+                <span><p className={styles.description}>
                     Seeking opportunities as a Software engineer
-                </p>
-                <a href={Resume} target="_blank" download>
-                    <button className='hover' /*download*/>
+                </p></span>
+                {/* <a href={Resume} target="_blank" download>
+                    <button className='hover'>
                         Resume
                     </button>
-                </a>
+                </a> */}
             </div>
         </section>
     )
