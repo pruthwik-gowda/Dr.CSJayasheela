@@ -4,8 +4,7 @@ function Footer() {
   return (
     <section id="section5" className={styles.container}>
       <p>
-        &copy; 2024 Pruthwik Gowda <br />
-        All rights reserved
+        Dr. Jayasheela C S <br />
       </p>
     </section>
   );
