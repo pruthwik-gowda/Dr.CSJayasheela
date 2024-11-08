@@ -125,3 +125,11 @@
   gap: 10px;
   text-align: left;
 }
+
+@media (width <= 600px) {
+  .subjectsTaught{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+}

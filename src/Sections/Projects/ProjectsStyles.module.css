@@ -107,6 +107,8 @@
   }
 }
 
+
+
 .details{
   display: flex;;
   flex-direction: column;
@@ -126,4 +128,12 @@
   align-items: baseline;
   text-align: left;
   gap: 10px;
+}
+
+@media (width <= 600px) {
+  .subjectsTaught{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
