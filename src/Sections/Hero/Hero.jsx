@@ -24,6 +24,32 @@ const Hero = () => {
 
     return (
         <section id="section0" className={styles.container}>
+            
+            <div className={styles.info}>
+                <h1>
+                    Dr. Jayasheela C S
+                </h1>
+                <p>
+                    Assistent Professor, Dept. of ISE, BIT
+                </p>
+                {/* <span className={styles.details}> */}
+                    <p>Email - sheeladhan1@gmail.com</p>
+                    <p>Email - jayasheela@bit-bangalore.edu.in </p>
+                    <p>Years of Experience - 19</p>
+                    <p>Contact - +91 94486 77798</p>
+                {/* </span> */}
+                {/* <p>
+                    Seeking opportunities as a Software engineer
+                </p> */}
+                {/* <a href="https://www.linkedin.com/in/pruthwik-gowda-576926248/" target="_blank">
+                        <img src={linkedInIcon} alt="twitter logo" />
+                </a> */}
+                {/* <a href={Resume} target="_blank" download>
+                    <button className='hover'>
+                        Resume
+                    </button>
+                </a> */}
+            </div>
             <div className={styles.colorModeContainer}>
                 <img 
                     className={styles.hero} 
@@ -35,36 +61,6 @@ const Hero = () => {
                 src={themeIcon} 
                 alt='Theme toggle' 
                 onClick={toggleTheme}/> */}
-            </div>
-            <div className={styles.info}>
-                <h1>
-                    Dr. C S Jayasheela
-                    
-                </h1>
-                <h2>
-                    Assistent Professor, Dept. of ISE
-                    <br></br>
-                    BIT
-                </h2>
-                <span>
-                    <a href="https://github.com/pruthwik-gowda" target="_blank">
-                        <img src={twitterIcon} alt="twitter logo" />
-                    </a>
-                    <a href="https://github.com/pruthwik-gowda" target="_blank">
-                        <img src={githubIcon} alt="twitter logo" />
-                    </a>
-                    <a href="https://www.linkedin.com/in/pruthwik-gowda-576926248/" target="_blank">
-                        <img src={linkedInIcon} alt="twitter logo" />
-                    </a>
-                </span>
-                <span><p className={styles.description}>
-                    Seeking opportunities as a Software engineer
-                </p></span>
-                {/* <a href={Resume} target="_blank" download>
-                    <button className='hover'>
-                        Resume
-                    </button>
-                </a> */}
             </div>
         </section>
     )

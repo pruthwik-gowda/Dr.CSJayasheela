@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/course-materials" element={<><CourseMaterial /></>} />
         <Route path="/contact-me" element={<Contact />}/>
       </Routes>
-      <Footer />  {/* Keep Footer on all pages */}
+      {/* <Footer />  Keep Footer on all pages */}
     </Router>
   );
 };

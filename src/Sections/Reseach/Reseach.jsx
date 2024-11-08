@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './SkillsStyles.module.css'
+import styles from './ResearchStyles.module.css'
 import heroImg from '../../assets/Jayasheela-maam-image.jpg'
 import sun from '../../assets/sun.svg'
 import moon from '../../assets/moon.svg'
@@ -33,16 +33,15 @@ const Hero = () => {
                 <div className={styles.subjects}>
                     
                     {/* <span className={styles.details}> */}
-                    <p>1. FDP on “Augmented Reality & Virtual Reality and its Applications”</p>
-<p>2. FDP on “Engineering in IoT, Mechatronics, Automation, Additive Manufacturing and Electric Vehicles”</p>
-<p>3. FDP on “Cyber Security: Challenges and Countermeasures”</p>
-<p>4. FDP on “AI Tools and Prompt Engineering”</p>
-<p>5. FDP on “Emerging Technologies”</p>
-<p>6. FDP on “Emerging Trends and Advances in Computing Technologies”</p>
-<p>7. FDP on “Viksit Bharat 2047 - Role of Engineering Faculty”</p>
-<p>8. FDP on “Exploring Computational Intelligence”</p>
-<p>9. FDP on “Gen AI and Prompt Engineering”</p>
-
+                    <p>FDP on “Augmented Reality & Virtual Reality and its Applications”</p>
+                    <p>FDP on “Engineering in IoT, Mechatronics, Automation, Additive Manufacturing and Electric Vehicles”</p>
+                    <p>FDP on “Cyber Security: Challenges and Countermeasures”</p>
+                    <p>FDP on “AI Tools and Prompt Engineering”</p>
+                    <p>FDP on “Emerging Technologies”</p>
+                    <p>FDP on “Emerging Trends and Advances in Computing Technologies”</p>
+                    <p>FDP on “Viksit Bharat 2047 - Role of Engineering Faculty”</p>
+                    <p>FDP on “Exploring Computational Intelligence”</p>
+                    <p>FDP on “Gen AI and Prompt Engineering”</p>
                 </div>
                 {/* </span> */}
                 {/* <p>
@@ -57,8 +56,6 @@ const Hero = () => {
                     </button>
                 </a> */}
                 <br />
-                <br />
-
                 <h2>
                      Research and publication
                 </h2>
@@ -92,9 +89,6 @@ const Hero = () => {
 
 
                 </div>
-                
-
-                
             </div>
             
         </section>
